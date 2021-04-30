@@ -42,8 +42,9 @@ module.exports = {
           ],
 
         },
-        sidebarDepth: 2,
-        displayAllHeaders: false // 默认值：false
-        
+        sidebarDepth: 0,
+        displayAllHeaders: false, // 默认值：false
+        lastUpdated: '上次更新', // string | boolean
+        // smoothScroll: true,
       }
   }
